@@ -1,9 +1,21 @@
 import React from 'react';
 
-const Student = () => {
+const Student = (props) => {
+    const {_id,name, phone, picture,address} = props.student;
+    const studentStyle = {
+        border: '3px solid goldenrod',
+        padding:'10px',
+        borderRadius: '10px'
+    };
     return (
-        <div>
-            <h2>Our Students.</h2>
+        <div style={studentStyle}>
+            <h2>I am:{name}</h2>
+            <p>Id: {_id}</p>
+            <h5>Call me:{phone}</h5>
+            <img src={picture} alt="" />
+            <p><small>I live in:{address}</small></p>
+
+
         </div>
     );
 };
