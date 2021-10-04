@@ -1,12 +1,12 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link  } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import Errorfile from './components/ErrorFile/Errorfile';
 import About from './components/About/About';
-import Student from './components/Students/Student';
+import Students from './components/Students2/Students';
 
 function App() {
   return (
@@ -24,9 +24,8 @@ function App() {
             <Services></Services>
           </Route>
           <Route exact path="/students">
-            <Student></Student>
+            <Students></Students>
           </Route>
-          <Route exact path=""></Route>
           <Route exact path="*">
             <Errorfile></Errorfile>
           </Route>
