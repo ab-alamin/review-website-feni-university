@@ -4,21 +4,71 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <div>
-            <div className="dropdown">
-          <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-             Our Services
-        </button>
-             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-             <Link className="dropdown-item active" to ="http://admission.feniuniversity.edu.bd/">Admission</Link>
-             <Link className="dropdown-item " to ="https://www.feniuniversity.edu.bd/pages/content_details/photo-gallery-2">Facilities</Link>
-            <Link className="dropdown-item " to ="https://www.feniuniversity.edu.bd/pages/content_details/photo-gallery-2">Academic</Link>
-            <Link className="dropdown-item " to ="https://www.feniuniversity.edu.bd/pages/content_details/photo-gallery-2">Faculty </Link>
-            <Link hr className="dropdown-divider"></Link>
-                    </ul>
-             </div>
-             <img className="img-fluid" src="https://www.feniuniversity.edu.bd/img/frontend/programme/faculty-of-business-administration-58173-2.jpg" alt="" />
-         </div>
+             <div class="row row-cols-1 row-cols-md-3 g-4  text-black ">
+  <div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xZ2GvtWUTpGp6qyEds1X4tURioSs2G_JRw&usqp=CAU" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">BBA</h5>
+        <p class="card-text">Cost= 480000Tk.</p>
+        <small>Details:Check Department</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <img src="http://www.southern.edu.bd/civil/wp-content/uploads/2019/02/3-2.png" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">MBA</h5>
+        <p class="card-text">Cost= 480000Tk</p>
+        <small>Details:Check Department</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyzeQvUwph3NJ_kFM-aXxnxU_pAAn3sikSkMbVYhUKu6qhJH4j0UZ39sxXSuIC9dTyu1Y&usqp=CAU" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">RMBA</h5>
+        <p class="card-text">Cost= 480000Tk</p>
+        <small>Details:Check Department</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB9tzkRn-dqi1VI4Rm85_k-GrhBzxu4tBt2LLoh4StTJHy7SW6unJrHbyiLkvnx--xgbA&usqp=CAU" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">CSC</h5>
+        <p class="card-text">Cost= 480000Tk</p>
+        <small>Details:Check Department</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIRJuDqdhv0Vw3CMyEz1CLAzTBTMBlcVUuow&usqp=CAU" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">CIVIL</h5>
+        <p class="card-text">Cost= 480000Tk</p>
+        <small>Details:Check Department</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8Rhv3ZSTg9FimjfnBfqZ0jcVY0z2VqdBFA&usqp=CAU" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">ENGLISH</h5>
+        <p class="card-text">Cost= 480000Tk</p>
+        <small>Details:Check Department</small>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
     );
 };
 
 export default Services;
+
