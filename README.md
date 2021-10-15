@@ -14,6 +14,7 @@ This project i use  html ,css,react router,bootstrap framwork,react bootstraf an
 6. created fake data json
 7. 
 ## .... Netlify live link
+https://cra.link/deployment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
