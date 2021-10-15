@@ -10,8 +10,8 @@ const Home = () => {
          <h5 class="card-title">Welcome To Feni University</h5>
             <p class="card-text">Feni University is a private university established in 2012 under the 2010 Private University Act.</p>
             {/* service area */}
-                <NavLink className="p-3 btn btn-primary" to="/Services">Services</NavLink>
                 <h2 className="bg-primary">Our Services</h2>
+                <NavLink className="p-3 btn btn-primary" to="/Services">Services</NavLink>
                 <Services></Services>
 
                 <h2 className="bg-info d-inline">Our Department</h2>

@@ -21,10 +21,10 @@ function App() {
             <About></About>
           </Route>
           <Route exact path="/services">
-            <Services></Services>
+            <Students></Students>
           </Route>
           <Route exact path="/students">
-            <Students></Students>
+            <Services></Services>
           </Route>
           <Route exact path="*">
             <Errorfile></Errorfile>
@@ -36,3 +36,5 @@ function App() {
 }
 
 export default App;
+
+// Students Services
